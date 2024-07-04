@@ -1,0 +1,25 @@
+.navbar-container{
+    background-color: black;
+        color: white;
+        padding: 1rem;
+        height: 5%;
+    }
+
+.navbar-container ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.navbar-container ul li {
+    margin: 0;
+}
+.navbar-container ul li a {
+    color: white;
+    text-decoration: none;
+}
+.navbar-container ul li a:hover {
+    text-decoration: underline;
+}
+
